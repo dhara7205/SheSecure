@@ -5,6 +5,7 @@ import App from './App';
 import Login from './login';
 import Home from './home';
 import reportWebVitals from './reportWebVitals';
+import Learning from './learning';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -23,7 +24,11 @@ const router = createBrowserRouter([
     {
       path: '/home',
       element: <Home />
-    }  
+    },  
+    {
+      path: '/learning',
+      element: <Learning />
+    }
     ],
   },
 ]);

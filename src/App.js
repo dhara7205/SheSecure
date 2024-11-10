@@ -16,6 +16,7 @@ function App() {
         <nav>
           <Link to="login"></Link>
           <Link to="RippleButton"></Link>
+          <Link to="learning"></Link>
         </nav>       
         </Header>
         <Outlet/>
@@ -38,7 +39,7 @@ function Header() {
       <nav className="nav-links">
         <a href="#query">Query</a>
         <a href="#log">Log Book</a>
-        <a href="https://www.youtube.com/results?search_query=self+defence+techniques+for+women">Learning</a>
+        <a  href="" onClick={() => navigate("/Learning")}>Learning</a>
         <a href="#profile">My Profile</a>
         <button className="login-button" onClick={handleClick}>Log In</button>
       </nav>
