@@ -1,0 +1,85 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-color: #ffffff; 
+}
+
+
+.box {
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px; 
+}
+
+
+.box h1 {
+  text-align: center;
+  color: #333; 
+  margin-bottom: 20px; 
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 10px; 
+}
+
+
+.grid-container label {
+  font-size: 14px; 
+  color: #666; 
+}
+
+
+.grid-container input[type="email"],
+.grid-container input[type="password"] {
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  font-size: 16px; 
+  transition: border 0.3s; 
+}
+
+
+.grid-container input[type="email"]:focus,
+.grid-container input[type="password"]:focus {
+  border-color: #007bff; 
+  outline: none; 
+}
+
+
+.button {
+  background-color: #007bff; 
+  color: white; 
+  padding: 25px; 
+  margin-top: 5px;
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+  width: 100%; 
+}
+
+/* Button hover effect */
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Optional: Add media query for responsiveness */
+@media (max-width: 400px) {
+  .box {
+    width: 90%; /* Full width on small screens */
+  }
+}
+
+.signup{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: -50%;
+}
